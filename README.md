@@ -1,2 +1,2 @@
 # hr-attrition-analysis
-In this project, machine learning methods are used predict employee attrition 
+In this project, exploratory data analysis was used to identify types of employees that will quit. Random forest and GBM models were used to create a model to predict employee attrition. Upsampling and downsampling were used because of the class imbalance for the attrition variable. F1 score was used to assess the model instead of accuracy because F1 score is a better metric for imbalanced data. Random forest with downsampling performed the best (F1 = 0.8262). Based on the variable importance plot for this model, monthly income, total working years, and total years at the company were the most important variables. 
